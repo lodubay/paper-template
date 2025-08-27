@@ -17,9 +17,6 @@ data = src / 'data'
 # won't be included in the manuscript)
 extra = src / 'extra'
 
-# Absolute path to the `src/static` folder (contains static images)
-static = src / 'static'
-
 # Absolute path to the `src/scripts` folder (contains figure/pipeline scripts)
 scripts = src / 'scripts'
 
