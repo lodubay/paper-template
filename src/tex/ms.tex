@@ -1,13 +1,13 @@
 % Define document class
-\documentclass[twocolumn,twocolappendix]{aastex631}
+\documentclass[twocolumn,twocolappendix]{aastex701}
 
 \usepackage{graphicx}
 \usepackage{xcolor}
 
 % user-defined commands
 \newcommand{\todo}[1]{{\color{red}#1}}
-\newcommand{\osuaffil}{Department of Astronomy, The Ohio State University, 140 W. 18th Ave, Columbus OH 43210, USA}
-\newcommand{\ccappaffil}{Center for Cosmology and AstroParticle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus OH 43210, USA}
+\newcommand{\osuaffil}{Department of Astronomy, The Ohio State University, 140 W. 18th Ave, Columbus, OH 43210, USA}
+\newcommand{\ccappaffil}{Center for Cosmology and AstroParticle Physics, The Ohio State University, 191 W. Woodruff Ave., Columbus, OH 43210, USA}
 
 \shorttitle{}
 \shortauthors{}
@@ -16,14 +16,19 @@
 
 % Title
 \title{}
+\shorttitle{}
 
 % Author list
 \author[0000-0003-3781-0747]{Liam O.\ Dubay}
 \affiliation{\osuaffil}
 \affiliation{\ccappaffil}
+\email{dubay.11@osu.edu}
+\correspondingauthor{Liam Dubay}
 
-\correspondingauthor{}
+\author{co-authors}
 \email{}
+\affiliation{}
+\shortauthors{Dubay et al.}
 
 \begin{abstract}
     Abstract.
@@ -45,5 +50,6 @@ We would like to acknowledge the land that The Ohio State University occupies is
 \label{app:reproducibility}
 
 \bibliography{references}
+\bibliographystyle{aasjournalv7}
 
 \end{document}
